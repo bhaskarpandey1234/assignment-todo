@@ -3,7 +3,7 @@ require('dotenv').config({ path: `${process.cwd()}/.env` });
 module.exports={ 
   "development": {
     "username": "postgres",
-    "password": "postgresql@123",
+    "password": "null",
     "database": "ticktick",
     "host": "127.0.0.1",
     "dialect": "postgres",
